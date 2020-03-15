@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+}
+
+.pageWrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100vh;
+    background-color: #E3E3E3;
+    padding-top: 15px;
+}
+
+.menu {
+    width: 240px;
+}
+
+.menuItem {
+    background-color: aliceblue;
+    margin: 2px auto;
+    padding: 2px 5px;
+}
+
+.menuItem > label {
+    display: inline-block;
+    width: 100%;
+}
+
+.menuItem > label > input {
+    margin-right: 10px;
+}
+
+.menuItemHeader {
+    background-color: aliceblue;
+    margin: 3px 0 2px 0;
+    padding: 2px 5px;
+}
+
+.menuItemIndent {
+    margin-left: 15px;
+}
+
+.menuItemIndent2 {
+    margin-left: 30px;
+}
+
+.menuItemIndent3 {
+    margin-left: 45px;
+}
